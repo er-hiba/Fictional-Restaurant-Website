@@ -101,7 +101,8 @@ h1 {
 
 .container {
     background-color: white;
-    height: 100vh;
+    height: fit-content;
+    margin-bottom: 10px;
     padding-top: 50px;
 }
 
@@ -119,27 +120,37 @@ h1 {
     right: 20px;
 }
 
+.col-lg-6 .row .col-6 {
+    padding: 5px;
+    height: 280px;
+}
+
 #img1 {
-    width: 225px;
-    height: 250px;
-    margin-left: auto;
+    width: 90%;
+    height: 100%;
+    margin-left: 10%;
+    object-fit: cover;
 }
 
 #img2 {
-    width: 180px;
-    height: 180px;
-    margin-top: auto;
+    position:relative;
+    bottom: -30%;
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
 }
 
 #img3 {
-    width: 180px;
-    height: 180px;
-    margin-left: auto;
+    width: 70%;
+    height: 70%;
+    margin-left: 30%;
+    object-fit: cover;
 }
 
 #img4 {
-    width: 225px;
-    height: 250px;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .col {
