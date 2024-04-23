@@ -215,7 +215,6 @@ nav ul li a.actif {
 .navbar-custom {
     background-color: #0F172B;
     color: #ffffff;
-    border-top-left-radius: 12px;
 }
 
 .navbar-custom .navbar-toggler {
